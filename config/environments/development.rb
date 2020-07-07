@@ -62,6 +62,6 @@ Rails.application.configure do
   # Allow connections to local server.
   config.hosts.clear
   
-  host = 'https://us-east-2.console.aws.amazon.com/'
+  host = 'https://8b8740b36f42415fb20586892e1406f1.vfs.cloud9.us-east-2.amazonaws.com'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 end
