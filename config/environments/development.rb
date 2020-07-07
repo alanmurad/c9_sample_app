@@ -61,4 +61,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   # Allow connections to local server.
   config.hosts.clear
+  
+  host = 'https://us-east-2.console.aws.amazon.com/'
+  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 end
